@@ -1,0 +1,18 @@
+.container-info {
+  color:white;
+}
+
+.title {
+  font-weight: bold;
+  position: relative;
+  top:60px;
+  font-size: 100px;
+  font-family: 'Itim';
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .title {
+    font-size: 80px;
+    margin-bottom: 120px;
+  }
+}

@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+
+.clock-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color:rgb(255,117,33);
+    color:white;
+    border-radius:60px;
+    width: 1000px;
+    padding: 0 60px;
+}
+
+
+.clock-second,.clock-minutes,.clock-hour {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .clock-container {
+    display: flex;
+    position: relative;
+    left: 10px;
+    flex-direction: row;
+    align-items:center;
+    padding: 10px;
+    margin: 80px 10px 0 10px;
+    width: 350px;
+  }
+
+  .clock-second,.clock-minutes,.clock-hour {
+    font-size: 60px;
+    text-align: center;
+  }
+}
